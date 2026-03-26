@@ -1,4 +1,4 @@
 # Check if the number is a float or not
-num=float(input("Enter a number: "))
-if num%1!=0:
+num=eval(input("Enter a number: "))
+if type(num)==float:
     print("The number is a float")
