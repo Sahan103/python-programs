@@ -1,3 +1,4 @@
+#check the given number is amstong or no
 def amstrong(n):
     cube=len(str(n))
     res=0
@@ -5,7 +6,7 @@ def amstrong(n):
         m=int(i)**cube
         res+=m
     if res==n:
-        return ('amms')
+        return ('ammstorng')
 num=153
 print(amstrong(num))
 
