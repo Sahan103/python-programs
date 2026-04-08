@@ -1,3 +1,4 @@
+#finding mid value
 my_list=eval(input("Enter a list of numbers: "))
 if len(my_list)%2!=0:
     if my_list[len(my_list)//2]>0:
