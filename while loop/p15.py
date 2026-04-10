@@ -5,3 +5,6 @@ while i<len(m):
     if m[i]:
         print(m[i])
     i+=1
+
+
+    
