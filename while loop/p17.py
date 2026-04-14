@@ -6,4 +6,4 @@ while i<len(s):
     if 'a'<=s[i]<='z':
         lower=lower+s[i]
     i+=1
-print(lower)
+print(lower)    
