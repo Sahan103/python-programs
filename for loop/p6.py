@@ -1,4 +1,5 @@
 d={'s':[1,2],'st':[1,2,3],'m':{1,2}}
+#o/p {'s':[1,2]}
 m={}
 for i in d:
     if type(i)==str and len(i)==1:
